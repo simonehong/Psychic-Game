@@ -42,7 +42,7 @@
                   GuessLeft--;
                               
                   //Displays user input
-                  Yourguesssofar += userGuess + ',';
+                  Yourguesssofar += userGuess + ', ';
                   }						
                   if (GuessLeft === 0) {
                   losses++;
@@ -58,11 +58,11 @@
       
           //displays user guesses, wins, losses
            userChoiceText.textContent = "Your choice: " + userGuess;
-      computerChoiceText.textContent = "The computer chose: " + getRandomLetter;
-      winsText.textContent = "wins: " + wins;
-       lossesText.textContent = "losses: " + losses;
+           computerChoiceText.textContent = "The computer chose: " + getRandomLetter;
+           winsText.textContent = "wins: " + wins;
+           lossesText.textContent = "losses: " + losses;
            GuessLeftText.textContent = "guess left: " + GuessLeft;
-           YourguesssofarText.textContent = "guesses so far:" + Yourguesssofar;
+           YourguesssofarText.textContent = "guesses so far: " + Yourguesssofar;
       }
   };
       

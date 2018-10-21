@@ -47,9 +47,17 @@ table {
 	border-spacing: 0;
 }
 img {
+	position: relative;
     float: right;
     width: 400px;
-    height: 400px;
-    padding-right: 200px;
-    padding-top: -20px;
+    height: auto;
+	padding-right: 100px;
+	margin-top: -90px;
+   }
+div {
+	margin-top: 0px;
+	padding: 20px;
+}
+p {
+	margin: 20px;
 }
