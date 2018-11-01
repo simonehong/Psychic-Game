@@ -46,10 +46,12 @@
                   }						
                   if (GuessLeft === 0) {
                   losses++;
+                  alert("You Lose");
                   reset();
               }
               else if(userGuess === getRandomLetter){
                       wins++;
+                      alert("You Win")
                       reset();
               }
                                   
